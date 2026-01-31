@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import smediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smediansorted@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-smediansorted/tags). For example,
+
+```javascript
 import smediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smediansorted@v0.1.0-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ The function has the following parameters:
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import smediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smediansorted@v0.1.0-deno/mod.js';
+import smediansorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-smediansorted@deno/mod.js';
 
 // Create a linearly spaced sorted array:
 var xbuf = linspace( 0.0, 10.0, 11, {
