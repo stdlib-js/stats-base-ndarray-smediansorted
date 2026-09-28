@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-09-28)
+
+<section class="features">
+
+### Features
+
+-   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`a714274`](https://github.com/stdlib-js/stdlib/commit/a714274083b3db45b0bebdf83f25be5ebfcb07a5) - **feat:** add C implementation for `stats/base/ndarray/smediansorted` [(#15270)](https://github.com/stdlib-js/stdlib/pull/15270) _(by Ujjwal Verma, Sachin Pangal)_
 -   [`5f56aa5`](https://github.com/stdlib-js/stdlib/commit/5f56aa58c2050ea8301fd1534a43e8660d147425) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
 
@@ -25,10 +36,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Sachin Pangal
+-   Ujjwal Verma
 
 </section>
 
